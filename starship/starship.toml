@@ -1,3 +1,20 @@
 add_newline = false
-format = """$directory$character"""
+format = """$directory$git_branch$git_status$character"""
 right_format = """$all"""
+
+[aws]
+symbol = ' '
+format = '[$symbol($profile )(\($region\) )(\[$duration\] )]($style)'
+
+[python]
+symbol = ' '
+
+[lua]
+disabled = true
+
+[git_branch]
+style = 'bold grey'
+format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[cmd_duration]
+disabled = true

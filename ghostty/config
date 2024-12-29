@@ -6,4 +6,5 @@ keybind = global:ctrl+`=toggle_quick_terminal
 quick-terminal-screen = mouse
 quick-terminal-animation-duration = 0.2
 quick-terminal-autohide = false
+macos-titlebar-style = hidden
 macos-option-as-alt = true
