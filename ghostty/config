@@ -4,6 +4,8 @@ mouse-hide-while-typing = true
 window-decoration = true
 keybind = global:ctrl+`=toggle_quick_terminal
 quick-terminal-screen = mouse
+# The line below depends on https://github.com/ghostty-org/ghostty/pull/3742
+#quick-terminal-size = 200px
 quick-terminal-animation-duration = 0.2
 quick-terminal-autohide = false
 macos-titlebar-style = hidden
