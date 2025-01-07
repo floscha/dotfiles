@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "workbench.iconTheme": "catppuccin-frappe",
+    "catppuccin.italicComments": false,
+    "catppuccin.italicKeywords": false,
+    "terminal.integrated.drawBoldTextInBrightColors": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.startupEditor": "none",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "update.mode": "none",
+    "explorer.confirmDelete": false,
+    "diffviewer.outputFormat": "side-by-side",
+    "remote.SSH.defaultExtensions": [
+        "ms-python.python",
+    ],
+    "xml.symbols.maxItemsComputed": 5000000,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "redhat.telemetry.enabled": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "xml.server.vmargs": "-Xmx128M",
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.fontFamily": "Menlo",
+}
+

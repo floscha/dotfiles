@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# 
+stow btop ghostty nvim sketchybar starship zsh
+stow zsh -t ~
+stow vscode -t "/Users/$USER/Library/Application Support/Code/User/"
+
+# ?
+#source sketchybar/sketchybarrc
