@@ -23,4 +23,4 @@ style = 'bold grey'
 format = '[$symbol$branch(:$remote_branch)]($style) '
 
 [cmd_duration]
-disabled = true
+min_time = 1_000
