@@ -12,6 +12,9 @@ symbol = ' '
 style = 'blue bold'
 format = '[$symbol$context]($style) '
 
+[docker_context]
+disabled = true
+
 [python]
 symbol = ' '
 
