@@ -1,9 +1,11 @@
 {
     "workbench.colorTheme": "Catppuccin Frappé",
     "workbench.iconTheme": "catppuccin-frappe",
+    "editor.fontFamily": "MesloLGS Nerd Font Mono",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
+    "terminal.integrated.drawBoldTextInBrightColors": false,
     "catppuccin.italicComments": false,
     "catppuccin.italicKeywords": false,
-    "terminal.integrated.drawBoldTextInBrightColors": false,
     "explorer.confirmDragAndDrop": false,
     "editor.minimap.enabled": false,
     "[python]": {
@@ -21,7 +23,7 @@
     ],
     "xml.symbols.maxItemsComputed": 5000000,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "redhat.telemetry.enabled": true,
+    "redhat.telemetry.enabled": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -30,6 +32,4 @@
     "[typescript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "editor.fontFamily": "Menlo",
 }
-
