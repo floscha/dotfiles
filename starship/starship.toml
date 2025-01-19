@@ -24,6 +24,7 @@ contexts = [
 disabled = true
 
 [python]
+disabled = true
 symbol = ' '
 
 [lua]
