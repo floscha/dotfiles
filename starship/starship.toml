@@ -1,6 +1,10 @@
 add_newline = false
-format = """$directory$git_branch$git_status$character"""
+format = """$directory$git_branch$git_metrics$character"""
 right_format = """$all"""
+
+[character]
+# Make character more subtle for success to only pop out in case of failure.
+success_symbol = '[❯](bold grey)'
 
 [aws]
 symbol = ' '
@@ -24,6 +28,15 @@ disabled = true
 [git_branch]
 style = 'bold grey'
 format = '[$symbol$branch(:$remote_branch)]($style) '
+
+[git_status]
+disabled = true
+
+[git_metrics]
+disabled = false
+added_style = 'green'
+deleted_style = 'red'
+format = '[󰐖 $added]($added_style) [󰍵 $deleted]($deleted_style) '
 
 [cmd_duration]
 min_time = 1_000
