@@ -8,7 +8,7 @@ success_symbol = '[❯](bold grey)'
 
 [aws]
 symbol = ' '
-format = '[$symbol($profile )(\($region\) )(\[$duration\] )]($style)'
+format = '[$symbol($region )]($style)'
 
 [kubernetes]
 disabled = false
