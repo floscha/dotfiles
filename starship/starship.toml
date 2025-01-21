@@ -27,6 +27,9 @@ disabled = true
 disabled = true
 symbol = ' '
 
+[nodejs]
+disabled = true
+
 [lua]
 disabled = true
 
